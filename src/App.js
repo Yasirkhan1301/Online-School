@@ -1,24 +1,23 @@
 import React,{useState} from 'react';
-import Header from "./Components/header"
-import home from "./Components/home_banner"
-import about from "./Components/about"
-import courses from "./Components/courses"
-import feature from "./Components/feature"
-import faculty from "./Components/faculty"
-import footer from "./Components/footer"
+import home_page from './home_page'
+
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 function App()
 {
   return (
-    <div>
-    {Header()}
-    {home()}
-    {about()}
-    {courses()}
-    {feature()}
-    {faculty()}
-    {footer()}
+    <Router>
+    <div> 
+    <Switch>
+    <Route path = "/" component = {home_page}></Route>
+    
+
+    </Switch>
     </div>
+
+
+    </Router>
+    
 
 )
 }

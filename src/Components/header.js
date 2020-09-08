@@ -12,7 +12,7 @@ function Header()
 				<nav id="nav-menu-container">
 					<ul className="nav-menu ">
 						<li className="menu-active"><a href="/">Home</a></li>
-						<li><a href="/">About</a></li>
+						<li><a href="">About</a></li>
 						<li><a href="/">Courses</a></li>
 						<li ><a href="/">Pages</a>
 							<ul>
