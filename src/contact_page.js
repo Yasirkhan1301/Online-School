@@ -9,7 +9,7 @@ import contact from "./Components/contact"
 
 
 
-function about_page()
+function contact_page()
 {
     return (
         <div>
@@ -45,12 +45,12 @@ function banner()
 				</div>
 			</div>
 		</div>
-		<div class="rocket-img">
+		{/* <div class="rocket-img">
 			<img src="img/rocket.png" alt=""></img>
-		</div>
+		</div> */}
 	</section>
 
     )
 }
 
-export default about_page
+export default contact_page

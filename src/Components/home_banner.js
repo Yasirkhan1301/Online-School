@@ -38,7 +38,7 @@ function home()
         </div>
       </div>
       <div className="rocket-img">
-        <img src="img/rocket.png" alt=""></img>
+        {/* <img src="img/rocket.png" alt=""></img> */}
            </div>
     </section>
 }

@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
 
 function Header()
 {
@@ -15,11 +14,6 @@ function Header()
  						<li className="menu-active"><a href="/">Home</a></li>
  						<li><a href="/about_page">About</a></li>
  						<li><a href="/course_page">Courses</a></li>
- 						<li ><a href="/pages">Pages</a>
- 							<ul>
-								<li><a href="/elements">Elements</a></li>
-							</ul>
-						</li>
 						<li className="menu-has-children"><a href="/">Blog</a>
 							<ul>
 								<li><a href="/blog_page">Blog Home</a></li>
@@ -27,6 +21,8 @@ function Header()
 							</ul>
 						</li>
 						<li><a href="/contact_page">Contact</a></li>
+						<li ><a href="/login_page">Login</a></li>
+
 					</ul>
 				</nav>
 			</div>
