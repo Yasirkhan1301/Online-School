@@ -3,7 +3,8 @@ import home_page from './home_page'
 import about_page from './about_page'
 import course_page from './courses_page'
 import contact_page from './contact_page'
-import login_page from './login_page'
+import login from './login_page'
+import register from './register_page'
 
 
 
@@ -21,10 +22,12 @@ function App()
     <Route path = "/course_page" component = {course_page}></Route>
     <Route path = "/contact_page" component = {contact_page}></Route>
     <Route path = "/blog_page" component = {blog_page}></Route>
-    <Route path = "/login_page" component = {login_page}></Route>
+    <Route path = "/login_page" component = {login}></Route>
+    <Route path = "/register_page" component = {register}></Route>
 
 
-    {/* <Route path = "/feature" component = {blog_detail}></Route> */}
+
+
 
 
 

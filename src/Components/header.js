@@ -5,13 +5,18 @@ function Header()
 
     return <header id="header">
 		<div className="container">
-			<div className="row align-items-center justify-content-between d-flex">
+			<div className="row align-items-center justify-content-between d-flex navbar navbar-expand-lg navbar-light">
 				<div>
-					<a ><img src="img/logo.png" alt="Alpha" title="Alpha" /></a>
+				    <ul>
+					<li >
+					<a class="navbar-brand" href="/">Online School</a>
+					</li>
+
+					</ul>
 				</div>
  				<nav id="nav-menu-container">
  					<ul className="nav-menu ">
- 						<li className="menu-active"><a href="/">Home</a></li>
+ 						<li><a href="/">Home</a></li>
  						<li><a href="/about_page">About</a></li>
  						<li><a href="/course_page">Courses</a></li>
 						<li className="menu-has-children"><a href="/">Blog</a>
@@ -22,6 +27,9 @@ function Header()
 						</li>
 						<li><a href="/contact_page">Contact</a></li>
 						<li ><a href="/login_page">Login</a></li>
+						<li ><a href="/register_page">Register</a></li>
+
+
 
 					</ul>
 				</nav>
@@ -29,6 +37,7 @@ function Header()
 		</div>
    </header>
 }
+
 
 
 export default Header;
