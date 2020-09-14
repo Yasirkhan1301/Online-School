@@ -3,16 +3,15 @@ import React from 'react'
 function Header()
 {
 
-    return <header id="header">
+    return (
+	<header id="header">
 		<div className="container">
-			<div className="row align-items-center justify-content-between d-flex navbar navbar-expand-lg navbar-light">
-				<div>
-				    <ul>
-					<li >
-					<a class="navbar-brand" href="/">Online School</a>
-					</li>
+			<div className="row align-items-center justify-content-between">
 
-					</ul>
+				<div class="navbar-brand ">
+
+					<a>Online School</a>
+		
 				</div>
  				<nav id="nav-menu-container">
  					<ul className="nav-menu ">
@@ -33,9 +32,9 @@ function Header()
 
 					</ul>
 				</nav>
+			 </div>
 			</div>
-		</div>
-   </header>
+   </header>)
 }
 
 

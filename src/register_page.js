@@ -25,10 +25,9 @@ function register_form()
        <input type="text" id="username" class="form-control" placeholder="User Name" required autofocus></input>
        <label for="inputEmail" class="sr-only">Email address</label>
        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus></input>
+       <label for="User Name" class="sr-only">User Name</label>
+       <input type="password" id="password" class="form-control" placeholder="Password" required autofocus></input>
        <label for="inputPassword" class="sr-only">Password</label>
-       <input type="password" id="inputPassword" class="form-control" placeholder="Password" required></input>
-       <label for="inputPassword" class="sr-only">Confirm Password</label>
-       <input type="password" id="inputPassword" class="form-control" placeholder="Confirm Password" required></input>
        <button class="btn btn-lg  btn-block form-button" type="submit">Register</button>
        <p class="mt-5 mb-3 text-muted">&copy; 2020-2021</p>
      </form>

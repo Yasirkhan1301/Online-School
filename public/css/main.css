@@ -14,6 +14,9 @@
   padding: 15px;
   margin: 0 auto;
 }
+.navbar-brand-style{
+text-decoration-color: white;
+}
 .form-margin{
   margin-top : 200px;
   margin-bottom: 200px;
@@ -1589,13 +1592,19 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997; 
-  background-color: #39cfca;}
+  background-color: #39cfca;
+  text-decoration-color: white;
+  color:white;
+}
 
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.9);
-  transition: all 0.5s; }
+  transition: all 0.5s; 
+color:white;
+}
   #header.header-scrolled .nav-menu li:hover > a, #header.header-scrolled .nav-menu > .menu-active > a {
-    color: #39cfca; }
+    color: #39cfca; 
+  }
 
 @media (max-width: 673px) {
   #logo {
